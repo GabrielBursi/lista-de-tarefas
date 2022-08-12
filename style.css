@@ -17,6 +17,7 @@
     grid-template-rows: repeat(2,1fr);
     justify-items: center;
     align-items: center;
+    border: 2px solid black;
 }
 .container-tarefa{
     border: 2px solid black;
@@ -24,4 +25,25 @@
     width:35%;
     min-height:50%;
     max-height: auto;
+    padding:5px;
+}
+.header-tarefa{
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+.body-tarefa{
+    max-width: 100%;
+    height:auto;
+    padding:4px;
+    border: 2px solid black;
+}
+.footer-tarefa{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:4px;
+    border: 2px solid black;
+}
+.btn-edicao-tarefa{
+    margin-left: 7px;
 }
